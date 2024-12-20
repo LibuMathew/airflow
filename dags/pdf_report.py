@@ -12,7 +12,6 @@ DB_USER = "postgres"
 DB_PASSWORD = "postgres"
 
 # Directory to save PDF
-# PDF_SAVE_PATH = "/mnt/d/reports"  # Mounted D drive directory
 PDF_SAVE_PATH = "/mnt/d"  # Mounted D drive directory
 
 def fetch_data_from_postgres():
