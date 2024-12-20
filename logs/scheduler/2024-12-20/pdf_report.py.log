@@ -264,3 +264,171 @@
 [2024-12-20T05:48:10.087+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:48:10.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-20T05:48:10.655+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:48:10.654+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
 [2024-12-20T05:48:11.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 1.789 seconds
+[2024-12-20T09:18:14.687+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:18:14.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:18:14.778+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:18:14.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:18:14.921+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:18:14.904+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:18:14.925+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:18:15.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.630 seconds
+[2024-12-20T09:19:04.460+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:19:04.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:19:04.481+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:19:04.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:19:04.579+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:19:04.564+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:19:04.586+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:19:04.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.360 seconds
+[2024-12-20T09:19:35.960+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:19:35.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:19:35.973+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:19:35.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:19:36.081+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:19:36.065+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:19:36.092+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:19:36.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.326 seconds
+[2024-12-20T09:20:20.038+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:20:20.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:20:20.076+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:20:20.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:20:20.216+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:20:20.189+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:20:20.232+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:20:20.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.409 seconds
+[2024-12-20T09:21:01.838+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:21:01.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:21:01.851+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:21:01.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:21:01.924+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:21:01.908+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:21:01.929+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:21:02.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.217 seconds
+[2024-12-20T09:21:41.405+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:21:41.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:21:41.419+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:21:41.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:21:41.545+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:21:41.518+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:21:41.559+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:21:41.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.297 seconds
+[2024-12-20T09:22:24.557+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:22:24.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:22:24.605+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:22:24.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:22:25.203+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:22:25.130+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:22:25.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:22:25.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.970 seconds
+[2024-12-20T09:23:01.182+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:23:01.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:23:01.230+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:23:01.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:23:01.471+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:23:01.370+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:23:01.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:23:01.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.673 seconds
+[2024-12-20T09:23:32.864+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:23:32.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:23:32.874+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:23:32.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:23:32.925+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:23:32.911+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:23:32.929+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:23:33.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.170 seconds
+[2024-12-20T09:24:04.076+0000] {processor.py:186} INFO - Started process (PID=626) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:24:04.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:24:04.089+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:24:04.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:24:04.148+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:24:04.134+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:24:04.153+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:24:04.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.176 seconds
+[2024-12-20T09:24:34.958+0000] {processor.py:186} INFO - Started process (PID=691) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:24:34.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:24:34.965+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:24:34.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:24:35.001+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:24:34.992+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:24:35.005+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:24:35.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.096 seconds
+[2024-12-20T09:25:05.888+0000] {processor.py:186} INFO - Started process (PID=756) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:25:05.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T09:25:05.894+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:25:05.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:25:05.944+0000] {logging_mixin.py:190} INFO - [2024-12-20T09:25:05.933+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/pdf_report.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pdf_report.py", line 5, in <module>
+    from fpdf import FPDF
+ModuleNotFoundError: No module named 'fpdf'
+[2024-12-20T09:25:05.949+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T09:25:06.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.159 seconds
