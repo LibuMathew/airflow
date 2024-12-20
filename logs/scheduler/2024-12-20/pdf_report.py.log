@@ -1,0 +1,266 @@
+[2024-12-20T05:28:51.349+0000] {processor.py:186} INFO - Started process (PID=12523) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:28:51.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:28:51.403+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:28:51.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:28:51.761+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:28:51.923+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:28:51.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:28:52.283+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:28:52.282+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:28:52.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 1.184 seconds
+[2024-12-20T05:29:24.725+0000] {processor.py:186} INFO - Started process (PID=12585) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:29:24.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:29:24.736+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:29:24.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:29:24.849+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:29:24.916+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:29:24.915+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:29:25.052+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:29:25.051+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:29:25.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.416 seconds
+[2024-12-20T05:29:55.342+0000] {processor.py:186} INFO - Started process (PID=12650) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:29:55.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:29:55.354+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:29:55.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:29:55.462+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:29:55.520+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:29:55.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:29:55.607+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:29:55.606+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:29:55.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.353 seconds
+[2024-12-20T05:30:26.521+0000] {processor.py:186} INFO - Started process (PID=12716) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:30:26.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:30:26.532+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:30:26.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:30:26.641+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:30:26.696+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:30:26.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:30:26.777+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:30:26.776+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:30:26.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.374 seconds
+[2024-12-20T05:30:57.073+0000] {processor.py:186} INFO - Started process (PID=12771) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:30:57.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:30:57.080+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:30:57.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:30:57.172+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:30:57.211+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:30:57.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:30:57.264+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:30:57.264+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:30:57.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.242 seconds
+[2024-12-20T05:31:28.096+0000] {processor.py:186} INFO - Started process (PID=12832) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:31:28.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:31:28.109+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:31:28.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:31:28.263+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:31:28.327+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:31:28.326+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:31:28.482+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:31:28.476+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:31:28.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.521 seconds
+[2024-12-20T05:31:59.187+0000] {processor.py:186} INFO - Started process (PID=12893) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:31:59.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:31:59.195+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:31:59.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:31:59.276+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:31:59.317+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:31:59.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:31:59.365+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:31:59.365+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:31:59.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.226 seconds
+[2024-12-20T05:32:30.368+0000] {processor.py:186} INFO - Started process (PID=12954) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:32:30.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:32:30.379+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:32:30.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:32:30.479+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:32:30.530+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:32:30.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:32:30.607+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:32:30.606+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:32:30.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.316 seconds
+[2024-12-20T05:33:01.900+0000] {processor.py:186} INFO - Started process (PID=13017) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:33:01.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:33:01.923+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:33:01.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:33:02.129+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:33:02.228+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:33:02.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:33:02.405+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:33:02.402+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:33:02.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.690 seconds
+[2024-12-20T05:33:33.322+0000] {processor.py:186} INFO - Started process (PID=13082) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:33:33.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:33:33.336+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:33:33.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:33:33.526+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:33:33.648+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:33:33.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:33:33.764+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:33:33.763+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:33:33.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.536 seconds
+[2024-12-20T05:34:05.151+0000] {processor.py:186} INFO - Started process (PID=13144) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:34:05.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:34:05.170+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:34:05.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:34:05.321+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:34:05.394+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:34:05.393+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:34:05.493+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:34:05.493+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:34:05.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.442 seconds
+[2024-12-20T05:34:36.409+0000] {processor.py:186} INFO - Started process (PID=13208) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:34:36.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:34:36.421+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:34:36.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:34:36.539+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:34:36.602+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:34:36.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:34:36.684+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:34:36.683+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:34:36.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.355 seconds
+[2024-12-20T05:35:07.697+0000] {processor.py:186} INFO - Started process (PID=13270) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:35:07.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:35:07.709+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:35:07.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:35:07.839+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:35:07.910+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:35:07.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:35:08.008+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:35:08.007+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:35:08.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.425 seconds
+[2024-12-20T05:35:38.853+0000] {processor.py:186} INFO - Started process (PID=13333) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:35:38.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:35:38.863+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:35:38.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:35:38.971+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:35:39.030+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:35:39.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:35:39.118+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:35:39.118+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:35:39.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.347 seconds
+[2024-12-20T05:36:09.668+0000] {processor.py:186} INFO - Started process (PID=13393) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:36:09.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:36:09.678+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:36:09.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:36:09.772+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:36:09.828+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:36:09.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:36:09.906+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:36:09.906+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:36:09.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.321 seconds
+[2024-12-20T05:36:41.874+0000] {processor.py:186} INFO - Started process (PID=13458) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:36:41.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:36:41.882+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:36:41.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:36:41.962+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:36:42.010+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:36:42.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:36:42.074+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:36:42.073+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:36:42.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.263 seconds
+[2024-12-20T05:37:14.088+0000] {processor.py:186} INFO - Started process (PID=13523) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:37:14.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:37:14.098+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:37:14.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:37:14.180+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:37:14.227+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:37:14.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:37:14.295+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:37:14.295+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:37:14.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.279 seconds
+[2024-12-20T05:37:45.848+0000] {processor.py:186} INFO - Started process (PID=13587) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:37:45.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:37:45.855+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:37:45.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:37:45.936+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:37:45.977+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:37:45.976+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:37:46.030+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:37:46.029+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:37:46.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.236 seconds
+[2024-12-20T05:38:18.434+0000] {processor.py:186} INFO - Started process (PID=13652) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:38:18.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:38:18.443+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:38:18.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:38:18.554+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:38:18.629+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:38:18.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:38:18.713+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:38:18.711+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:38:18.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.354 seconds
+[2024-12-20T05:38:50.178+0000] {processor.py:186} INFO - Started process (PID=13718) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:38:50.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:38:50.183+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:38:50.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:38:50.226+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:38:50.249+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:38:50.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:38:50.285+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:38:50.284+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:38:50.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.179 seconds
+[2024-12-20T05:39:20.746+0000] {processor.py:186} INFO - Started process (PID=13780) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:39:20.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:39:20.755+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:39:20.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:39:20.836+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:39:20.877+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:39:20.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:39:20.929+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:39:20.928+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:39:21.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.283 seconds
+[2024-12-20T05:39:51.617+0000] {processor.py:186} INFO - Started process (PID=13845) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:39:51.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:39:51.624+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:39:51.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:39:51.679+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:39:51.707+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:39:51.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:39:51.739+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:39:51.738+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:39:51.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.196 seconds
+[2024-12-20T05:40:22.212+0000] {processor.py:186} INFO - Started process (PID=13910) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:40:22.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:40:22.221+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:40:22.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:40:22.306+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:40:22.381+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:40:22.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:40:22.486+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:40:22.485+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:40:22.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.398 seconds
+[2024-12-20T05:40:52.872+0000] {processor.py:186} INFO - Started process (PID=13975) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:40:52.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:40:52.890+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:40:52.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:40:53.125+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:40:53.220+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:40:53.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:40:53.435+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:40:53.434+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:40:53.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.704 seconds
+[2024-12-20T05:41:23.775+0000] {processor.py:186} INFO - Started process (PID=14040) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:41:23.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:41:23.782+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:41:23.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:41:23.876+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:41:23.925+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:41:23.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:41:23.975+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:41:23.974+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:41:24.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.280 seconds
+[2024-12-20T05:41:54.228+0000] {processor.py:186} INFO - Started process (PID=14106) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:41:54.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:41:54.241+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:41:54.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:41:54.317+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:41:54.349+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:41:54.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:41:54.384+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:41:54.384+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:41:54.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.208 seconds
+[2024-12-20T05:42:24.918+0000] {processor.py:186} INFO - Started process (PID=14171) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:42:24.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:42:24.928+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:42:24.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:42:25.027+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:42:25.065+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:42:25.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:42:25.119+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:42:25.119+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:42:25.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.300 seconds
+[2024-12-20T05:42:55.749+0000] {processor.py:186} INFO - Started process (PID=14236) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:42:55.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:42:55.777+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:42:55.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:42:56.045+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:42:56.155+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:42:56.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:42:56.356+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:42:56.354+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:42:56.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.759 seconds
+[2024-12-20T05:43:26.594+0000] {processor.py:186} INFO - Started process (PID=14302) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:43:26.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:43:26.600+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:43:26.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:43:26.673+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:43:26.708+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:43:26.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:43:26.757+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:43:26.756+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:43:26.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.209 seconds
+[2024-12-20T05:43:57.515+0000] {processor.py:186} INFO - Started process (PID=14366) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:43:57.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:43:57.526+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:43:57.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:43:57.635+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:43:57.684+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:43:57.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:43:57.751+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:43:57.750+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:43:57.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.310 seconds
+[2024-12-20T05:44:27.951+0000] {processor.py:186} INFO - Started process (PID=14429) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:44:27.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:44:27.961+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:44:27.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:44:28.073+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:44:28.136+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:44:28.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:44:28.276+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:44:28.275+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:44:28.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.433 seconds
+[2024-12-20T05:44:59.309+0000] {processor.py:186} INFO - Started process (PID=14494) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:44:59.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:44:59.330+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:44:59.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:44:59.430+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:44:59.480+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:44:59.480+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:44:59.533+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:44:59.532+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:44:59.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.292 seconds
+[2024-12-20T05:45:29.732+0000] {processor.py:186} INFO - Started process (PID=14559) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:45:29.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:45:29.742+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:45:29.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:45:29.844+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:45:29.876+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:45:29.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:45:29.917+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:45:29.917+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:45:29.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.233 seconds
+[2024-12-20T05:46:01.208+0000] {processor.py:186} INFO - Started process (PID=14623) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:46:01.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:46:01.231+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:46:01.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:46:01.546+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:46:01.648+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:46:01.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:46:01.797+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:46:01.797+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:46:01.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.747 seconds
+[2024-12-20T05:46:32.343+0000] {processor.py:186} INFO - Started process (PID=14688) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:46:32.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:46:32.350+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:46:32.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:46:32.414+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:46:32.449+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:46:32.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:46:32.505+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:46:32.504+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:46:32.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.211 seconds
+[2024-12-20T05:47:02.740+0000] {processor.py:186} INFO - Started process (PID=14753) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:47:02.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:47:02.750+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:47:02.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:47:02.847+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:47:02.892+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:47:02.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:47:02.954+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:47:02.953+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:47:03.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.282 seconds
+[2024-12-20T05:47:33.551+0000] {processor.py:186} INFO - Started process (PID=14818) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:47:33.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:47:33.571+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:47:33.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:47:33.790+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:47:33.873+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:47:33.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:47:33.970+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:47:33.969+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:47:34.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 0.510 seconds
+[2024-12-20T05:48:09.469+0000] {processor.py:186} INFO - Started process (PID=14870) to work on /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:48:09.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pdf_report.py for tasks to queue
+[2024-12-20T05:48:09.508+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:48:09.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:48:09.918+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_pdf_report' retrieved from /opt/airflow/dags/pdf_report.py
+[2024-12-20T05:48:10.087+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:48:10.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T05:48:10.655+0000] {logging_mixin.py:190} INFO - [2024-12-20T05:48:10.654+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_pdf_report to 2024-12-20 00:00:00+00:00, run_after=2024-12-21 00:00:00+00:00
+[2024-12-20T05:48:11.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pdf_report.py took 1.789 seconds

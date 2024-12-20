@@ -1,0 +1,33 @@
+[2024-12-20T05:48:18.300+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-20T05:48:18.483+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_complex.create_entry_group_result2 manual__2024-12-20T05:47:38.270017+00:00 [queued]>
+[2024-12-20T05:48:18.572+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_complex.create_entry_group_result2 manual__2024-12-20T05:47:38.270017+00:00 [queued]>
+[2024-12-20T05:48:18.582+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-20T05:48:18.986+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): create_entry_group_result2> on 2024-12-20 05:47:38.270017+00:00
+[2024-12-20T05:48:19.064+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1510) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-20T05:48:19.152+0000] {standard_task_runner.py:72} INFO - Started process 1540 to run task
+[2024-12-20T05:48:19.441+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'example_complex', 'create_entry_group_result2', 'manual__2024-12-20T05:47:38.270017+00:00', '--job-id', '25', '--raw', '--subdir', '/home/***/.local/lib/python3.12/site-packages/***/example_dags/example_complex.py', '--cfg-path', '/tmp/tmplj47401k']
+[2024-12-20T05:48:19.483+0000] {standard_task_runner.py:105} INFO - Job 25: Subtask create_entry_group_result2
+[2024-12-20T05:48:20.139+0000] {task_command.py:467} INFO - Running <TaskInstance: example_complex.create_entry_group_result2 manual__2024-12-20T05:47:38.270017+00:00 [running]> on host 87cacb862745
+[2024-12-20T05:48:22.928+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_complex' AIRFLOW_CTX_TASK_ID='create_entry_group_result2' AIRFLOW_CTX_EXECUTION_DATE='2024-12-20T05:47:38.270017+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-20T05:47:38.270017+00:00'
+[2024-12-20T05:48:22.949+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-20T05:48:22.955+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-20T05:48:22.957+0000] {logging_mixin.py:190} INFO - Current task name:create_entry_group_result2 state:running start_date:2024-12-20 05:48:18.486905+00:00
+[2024-12-20T05:48:22.959+0000] {logging_mixin.py:190} INFO - Dag name:example_complex and current dag run status:running
+[2024-12-20T05:48:22.961+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-20T05:48:22.964+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-20T05:48:22.974+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo create_entry_group_result2']
+[2024-12-20T05:48:23.165+0000] {subprocess.py:99} INFO - Output:
+[2024-12-20T05:48:23.180+0000] {subprocess.py:106} INFO - create_entry_group_result2
+[2024-12-20T05:48:23.199+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-20T05:48:23.336+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-20T05:48:23.358+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=example_complex, task_id=create_entry_group_result2, run_id=manual__2024-12-20T05:47:38.270017+00:00, execution_date=20241220T054738, start_date=20241220T054818, end_date=20241220T054823
+[2024-12-20T05:48:23.468+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-20T05:48:23.471+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-20T05:48:23.478+0000] {logging_mixin.py:190} INFO - Dag name:example_complex queued_at:2024-12-20 05:47:38.368647+00:00
+[2024-12-20T05:48:23.489+0000] {logging_mixin.py:190} INFO - Task hostname:87cacb862745 operator:BashOperator
+[2024-12-20T05:48:23.616+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-20T05:48:24.956+0000] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics
+[2024-12-20T05:48:25.077+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-20T05:48:25.156+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

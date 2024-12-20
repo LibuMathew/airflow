@@ -1,0 +1,11 @@
+[2024-12-20T05:48:34.989+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-20T05:48:35.176+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_complex.get_entry manual__2024-12-20T05:47:38.270017+00:00 [queued]>
+[2024-12-20T05:48:35.323+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_complex.get_entry manual__2024-12-20T05:47:38.270017+00:00 [queued]>
+[2024-12-20T05:48:35.326+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-20T05:48:35.599+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): get_entry> on 2024-12-20 05:47:38.270017+00:00
+[2024-12-20T05:48:35.628+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1525) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-20T05:48:35.757+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'example_complex', 'get_entry', 'manual__2024-12-20T05:47:38.270017+00:00', '--job-id', '26', '--raw', '--subdir', '/home/***/.local/lib/python3.12/site-packages/***/example_dags/example_complex.py', '--cfg-path', '/tmp/tmp5fsuraib']
+[2024-12-20T05:48:35.810+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask get_entry
+[2024-12-20T05:48:35.786+0000] {standard_task_runner.py:72} INFO - Started process 1553 to run task

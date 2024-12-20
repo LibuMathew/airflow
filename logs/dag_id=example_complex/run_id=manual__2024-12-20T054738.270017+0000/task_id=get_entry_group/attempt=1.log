@@ -1,0 +1,31 @@
+[2024-12-20T05:48:09.418+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-20T05:48:09.550+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_complex.get_entry_group manual__2024-12-20T05:47:38.270017+00:00 [queued]>
+[2024-12-20T05:48:09.625+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_complex.get_entry_group manual__2024-12-20T05:47:38.270017+00:00 [queued]>
+[2024-12-20T05:48:09.635+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-20T05:48:09.936+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): get_entry_group> on 2024-12-20 05:47:38.270017+00:00
+[2024-12-20T05:48:09.982+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1507) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-20T05:48:09.998+0000] {standard_task_runner.py:72} INFO - Started process 1523 to run task
+[2024-12-20T05:48:10.036+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'example_complex', 'get_entry_group', 'manual__2024-12-20T05:47:38.270017+00:00', '--job-id', '23', '--raw', '--subdir', '/home/***/.local/lib/python3.12/site-packages/***/example_dags/example_complex.py', '--cfg-path', '/tmp/tmpwcpyypx1']
+[2024-12-20T05:48:10.050+0000] {standard_task_runner.py:105} INFO - Job 23: Subtask get_entry_group
+[2024-12-20T05:48:13.239+0000] {task_command.py:467} INFO - Running <TaskInstance: example_complex.get_entry_group manual__2024-12-20T05:47:38.270017+00:00 [running]> on host 87cacb862745
+[2024-12-20T05:48:14.913+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_complex' AIRFLOW_CTX_TASK_ID='get_entry_group' AIRFLOW_CTX_EXECUTION_DATE='2024-12-20T05:47:38.270017+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-20T05:47:38.270017+00:00'
+[2024-12-20T05:48:14.928+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-20T05:48:14.948+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-20T05:48:14.951+0000] {logging_mixin.py:190} INFO - Current task name:get_entry_group state:running start_date:2024-12-20 05:48:09.552211+00:00
+[2024-12-20T05:48:14.953+0000] {logging_mixin.py:190} INFO - Dag name:example_complex and current dag run status:running
+[2024-12-20T05:48:14.956+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-20T05:48:14.990+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-20T05:48:15.007+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo get_entry_group']
+[2024-12-20T05:48:15.482+0000] {subprocess.py:99} INFO - Output:
+[2024-12-20T05:48:15.516+0000] {subprocess.py:106} INFO - get_entry_group
+[2024-12-20T05:48:15.520+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-20T05:48:15.939+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-20T05:48:15.955+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=example_complex, task_id=get_entry_group, run_id=manual__2024-12-20T05:47:38.270017+00:00, execution_date=20241220T054738, start_date=20241220T054809, end_date=20241220T054815
+[2024-12-20T05:48:16.341+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-20T05:48:16.365+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-20T05:48:16.380+0000] {logging_mixin.py:190} INFO - Dag name:example_complex queued_at:2024-12-20 05:47:38.368647+00:00
+[2024-12-20T05:48:16.396+0000] {logging_mixin.py:190} INFO - Task hostname:87cacb862745 operator:BashOperator
+[2024-12-20T05:48:17.348+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-20T05:48:17.508+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
